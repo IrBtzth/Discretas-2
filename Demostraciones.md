@@ -1,7 +1,7 @@
 # Demostraciones
 
 # Clase 5
-- ## **Teorema:  para todo n se tiene que \$n \leq n$** <a name="abcd"></a>
+- ## **Teorema:  para todo n se tiene que \$n \leq n$** <a name="Teorema5.1"></a>
 
 Demostracion: Sea n arbitrario.
 Se demuestra por 
