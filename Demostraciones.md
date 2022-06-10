@@ -122,7 +122,7 @@ $\equiv$ < Reemplaza n >
    
    $((m+k')+k= m \wedge m+k'= n)$
    
-$\equiv$  <Asociatividad>
+$\equiv$  < Asociatividad >
    
    $(m+(k'+k)= m \wedge m+k'= n)$
    
