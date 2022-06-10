@@ -134,26 +134,29 @@ $\equiv$ <Conmutatividad y m-m=0>
    
    $((k'+k)+m)-m= 0 \wedge m+k'= n)$
 
-$\equiv$ <Teorema de sumar y restar >
+$\equiv$ < Teorema de sumar y restar >
    
-     $(k'+k= 0\wedge m+k'= n)$
+   $(k'+k= 0\wedge m+k'= n)$
    
 $\Rightarrow$ < Teorema >
    
-   $(k'= 0\wedge m+k'= n)$
+   $(k'= 0 \wedge m+k'= n)$
    
 $\equiv$ < Reemplazo k'>
       
-   $(k'= 0\wedge m+0= n)$
+   $(k'= 0 \wedge m+0= n)$
                     
 $\equiv$ < Elemento neutro >
    
-     $(k'= 0\wedge m=n)$
+   $(k'=0 \wedge m=n)$
    
 $\Rightarrow$ < Debilitamiento >
-     m=n
+     
+   m=n
+   
  $\equiv$ < Simetria de la igualdad  >
-     n=m
+     
+   n=m
 
 
    
