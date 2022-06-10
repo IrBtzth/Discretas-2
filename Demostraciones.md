@@ -73,7 +73,7 @@ Se debe demostrar que k'+0=0 $\Rightarrow$ k'=0 por metodo directo
    
    k'=0 $\Rightarrow$ k'=0
    
-   $\equiv$ <Reflexividad de la igualdad>
+   $\equiv$ < Reflexividad de la igualdad >
    
    $True$  
    
@@ -94,6 +94,67 @@ $\equiv$  <Axioma 1>
    
    false $\Rightarrow$ k'=0 
    
-$\equiv$ <Reflexividad de la igualdad>
+$\equiv$ < Reflexividad de la igualdad >
    
    $True$ 
+   
+- ## **Teorema:  para todo $n$ y $m$ se tiene que si $n\leq m$  y $m \leq n$ entonces n=m** 
+
+  Demostracion: Sean n y m arbitrarios
+
+Se demostrara por debilitamiento
+   
+   $n\leq m  \land m \leq n$
+   
+$\equiv$ < Axioma 23 dos veces >
+   
+   $(\exists k|:n+k= m)\wedge (\exists k|:m+k= n)$
+
+ $\equiv$  < Renombro variable dummy >
+    
+   $(\exists k|:n+k= m)\wedge (\exists k'|:m+k'= n)$
+   
+ $\equiv$ < Tomo testigos k y k' >
+   
+   $(n+k= m \wedge m+k'= n)$
+
+$\equiv$ < Reemplaza n >
+   
+   $((m+k')+k= m \wedge m+k'= n)$
+   
+$\equiv$  <Asociatividad>
+   
+   $(m+(k'+k)= m \wedge m+k'= n)$
+   
+$\Rightarrow$ < Leibniz >
+   
+   $((m+(k'+k))-m= m-m \wedge m+k'= n)$
+
+$\equiv$ <Conmutatividad y m-m=0>
+   
+   $((k'+k)+m)-m= 0 \wedge m+k'= n)$
+
+$\equiv$ <Teorema de sumar y restar >
+   
+     $(k'+k= 0\wedge m+k'= n)$
+   
+$\Rightarrow$ < Teorema >
+   
+   $(k'= 0\wedge m+k'= n)$
+   
+$\equiv$ < Reemplazo k'>
+      
+   $(k'= 0\wedge m+0= n)$
+                    
+$\equiv$ < Elemento neutro >
+   
+     $(k'= 0\wedge m=n)$
+   
+$\Rightarrow$ < Debilitamiento >
+     m=n
+ $\equiv$ < Simetria de la igualdad  >
+     n=m
+
+
+   
+   
