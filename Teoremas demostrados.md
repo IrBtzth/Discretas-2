@@ -24,14 +24,10 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 20) P(S(n))=n
 21) n-0 = n
 22) n-S(m)=P(n-m)
-23) n \leq m  \equiv (\exists k|:n+k=m)n≤m≡(∃k∣:n+k=m) 
-24) n < m \equiv n\leq m\wedge n\neq mn<m≡n≤m∧n
-
-=m 
-25) n\geq m \equiv m\leq nn≥m≡m≤n 
-26) n > m \equiv n\geq m\wedge n\neq mn>m≡n≥m∧n
-
-=m
+23) $n \leq m  \equiv (\exists k|:n+k=m)$ 
+24) $n < m \equiv n\leq m\wedge n\neq$
+25) $n\geq m \equiv m\leq n$
+26) $n > m \equiv n\geq m\wedge n\neq m$
 
 # Clase 4
 - Teorema: para todo n se tiene que n*1=n
