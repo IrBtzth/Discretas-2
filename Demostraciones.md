@@ -60,13 +60,40 @@ $\equiv$ <Reflexivilidad de la igualdad>
    
    ## - **Teorema: si k'+k=0 entonces k'=0**
    
+   Demostracion: Por induccion sobre k
    
+   **Caso base: k=0**
    
+Se debe demostrar que k'+0=0 $\Rightarrow$ k'=0 por metodo directo
+
    
+   k'+0=0 $\Rightarrow$ k'=0
    
+   $\equiv$ <Elemento neutro>
    
+   k'=0 $\Rightarrow$ k'=0
    
+   $\equiv$ <Reflexividad de la igualdad>
    
+   $True$  
    
+   **Paso inductivo: sea k arbitrario**
    
-  
+Hipotesis inductiva:  k'=0 $\Rightarrow$ k'=0
+   
+Tesis inductiva: k'+S(k)=0 $\Rightarrow$ k'=0 se demostrar por metodo directo 
+   
+
+k'+S(k)=0 $\Rightarrow$ k'=0
+   
+$\equiv$ <Axioma 14>   
+   
+   S(k'+k)=0 $\Rightarrow$ k'=0
+   
+$\equiv$  <Axioma 1>
+   
+   false $\Rightarrow$ k'=0 
+   
+$\equiv$ <Reflexividad de la igualdad>
+   
+   $True$ 
