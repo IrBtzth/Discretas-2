@@ -1,7 +1,7 @@
 # Demostraciones
 
 # Clase 5
-- ## **Teorema:  para todo n se tiene que \$n \leq n$** 
+- ## **Teorema:  para todo n se tiene que \$n \leq n$** <a name="abcd"></a>
 
 Demostracion: Sea n arbitrario.
 Se demuestra por 
@@ -45,4 +45,28 @@ $\equiv$ <Reflexivilidad de la igualdad>
   ($\forall$ n |: True)
   
  **Paso inductivo: sea m arbitrario.**
+   
+   Hipotesis inductiva: ($\forall$ n |: (n+m)-m=n)
+   Tesis inductiva: ($\forall$ n |: (n+S(m))-S(m)=n)
+   
+   ($\forall$ n |: (n+S(m))-S(m)=n)
+
+   $\equiv$ <Asociatividad de la suma>
+   ($\forall$ n |: n+(S(m)-S(m))=n)
+   
+   $\equiv$ <Axioma 22>
+   ($\forall$ n |: n+P(m-m)=n)
+      1
+   
+   ## - **Teorema: si k'+k=0 entonces k'=0**
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
   
