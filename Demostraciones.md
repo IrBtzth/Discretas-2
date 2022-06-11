@@ -158,6 +158,41 @@ $\Rightarrow$ < Debilitamiento >
      
    n=m
 
+Se ha demostrado por debilitamiendo que $n\leq m\wedge m\leq n\Rightarrow n$. Pero como $n$ y $m$ eran arbitrarios se puede generalizar obteniendo
+$(\forall n|:(\forall m|:n\leq m\wedge m\leq n\Rightarrow n=m))$
+   
+- ## **Teorema (Transitividad del menor o igual): Para todo $n$, $m$ y $p$ se tiene que $n\leq m\wedge m\leq p\Rightarrow n\leq p$**
+
+Dem: Sean n,m y p arbitrarios. Por debilitamiento.
+   
+   $(n \leq m \wedge m \leq p)$ 
+   
+$\equiv$ < Axioma 23 dos veces >
+   
+   $(\exists k|:n+k= m) \wedge (\exists k|:m+k= p)$
+   
+$\equiv$ < Tomo testigos k y k' >
+    
+  $( n+k= m) \wedge (m+k'= p)$
+
+$\equiv$  < Reemplazo m >
+   
+  $(n+k= m) \wedge ((n+k)+k'= p)$
+   
+$\equiv$  < Asociatividad >
+    
+   $(n+k= m) \wedge (n+(k+k') = p)$
+   
+$\equiv$  < Debilito >
+   
+   $(n+(k+k') = p)$
+
+ $\equiv$ < Introduccion del existe > 
+    
+   (\exists k''|:n+k=p)
+   
+   
+
 
    
    
