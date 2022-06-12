@@ -58,7 +58,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 # Clase 6
 
    <a name="teorema6.1"></a>
-   ## Teorema6.1
+   ## Teorema6.1  $p*(m+n)=p* m+ p* n$
    
    Demostracion:
 
