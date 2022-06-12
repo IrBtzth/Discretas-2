@@ -52,7 +52,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 - [Teorema6.2:](#teorema6.2) $n-n=0$
 - [Teorema6.3:](#teorema6.3)  $m\leq n\Rightarrow m+p\leq n +p$
 - [Teorema6.4:](#teorema6.4)  $m\leq n \Rightarrow 0\leq n-m$ 
-- Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
+- [Teorema6.5:](#teorema6.5) Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
 - Teorema6.6 (para demostrar en la practica): Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
 
 # Clase 6
@@ -169,7 +169,42 @@ $\equiv$ < Axioma 21 >
    
    $\equiv$ < Def del menor o igual, o Ax 23>
    
-   $(0 \leq n-m)
+   $(0 \leq n-m)$
+   
+   Se ha demostrado por debilitamiento el teorema.
+   
+   <a name="teorema6.5"></a>
+   - ## Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
+                              
+     Demostracion: Se asume como hipotesis que $m\leq n$
+     Por induccion sobre m
+     
+     Caso base m= 0                               
+
+     $(n\leq p \Rightarrow n-0\leq p-0)$ 
+     
+Se debe demostrar que $n\leq p\Rightarrow n-0\leq p-0$ pero esto aplicando el axioma 21 seria equivalente a $n\leq p\Rightarrow n\leq p$ lo cual es una tautologia
+
+**Paso inductivo: Sea m arbitrario**
+Hipotesis Inductiva: $(n\leq p \Rightarrow n-m\leq p-m)$    
+Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$ 
+                              
+   $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$ 
+   
+   $\equiv$ < Axioma 23 >
+   
+   $(\exists k|: m+k=n)$ 
+   
+   $\equiv$ < Leibniz como axioma y paridad >
+   
+   $(\exists k|:(m+k) -m  =n -m)$                                
+
+                              
+   
+                              
+                              
+   
+   
    
    
    
