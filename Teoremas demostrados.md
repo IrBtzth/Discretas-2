@@ -53,7 +53,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 - [Teorema6.3:](#teorema6.3)  $m\leq n\Rightarrow m+p\leq n +p$
 - [Teorema6.4:](#teorema6.4)  $m\leq n \Rightarrow 0\leq n-m$ 
 - [Teorema6.5:](#teorema6.5) Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
-- Teorema6.6 (para demostrar en la practica): Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
+- [Teorema6.6 (para demostrar en la practica):](#teorema6.6) Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
 
 # Clase 6
 
@@ -212,6 +212,14 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    
    $(n\leq p \Rightarrow n \leq p))$
    
+   $\equiv$ < Reflexividad de la igualdad >
+   
+   $True$
+  
+   Se ha demostrado el teorema por induccion
+   
+   <a name="teorema6.6"></a>
+  - ## Teorema6.6 (para demostrar en la practica): Si $a\leq n$ y $a\leq m$, entonces $n\neq m\equiv n-a \neq m-a$ donde a es una constante.
 
                               
    
