@@ -67,15 +67,52 @@ $\equiv$ <Conmutividad>
    
   $(m+n)*p$
    
-$\equiv$ <Distributiva>
+$\equiv$ < Distributiva >
    
   $m*p+n*p$
-$\equiv$ <Conmutatividad dos veces>
+$\equiv$ < Conmutatividad dos veces >
   
   $p*m+p*n$
    
   <a name="teorema6.2"></a>
   - ## Teorema6.2: $n~-~n=0$
+   
+   $n~-~n=0$
+   
+   **Caso base: n=0**
+
+   0-0
+$\equiv$ < Axioma 21 >
+   
+   0
+   
+ **Paso inductivo: sea n arbitrario**
+   
+   Hipotesis inductiva: $n-n=0$  
+   Tesis inductiva: $n-S(n)=0$
+   
+   $S(n)-S(n)=0$
+  
+   $\equiv$   < Axioma 22 >
+   
+   $P(S(n)-n)=0$
+   
+   $\equiv$   < Definicion de sucesor >
+   
+   $P((n+1)-n)=0$
+   
+   $\equiv$   < Comutatividad >
+   
+   $P((1+n)-n)=0$
+   
+   $\equiv$   < Teorema de sumar y restar >
+   
+   $P(0)=0$
+   
+   $\equiv$   < Teorema de sumar y restar >
+   
+   
+   
    
 
 
