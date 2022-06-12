@@ -201,6 +201,10 @@ $\equiv$  < Debilito >
    
    # Clase 6
    
+   - ## Teorema6.1: $p*(m+n)=p* m+ p* n$   <a name="Teorema6.1"></a>
+   
+   Demostracion:
+   
    
 
 
