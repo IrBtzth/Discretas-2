@@ -48,7 +48,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 
 # Clase 6
 
-- [Teorema6.1](Teorema6.1): $p*(m+n)=p* m+ p* n$
+- [Teorema6.1](#teorema6.1:-$p*(m+n)=p*-m+-p*-n$): $p*(m+n)=p* m+ p* n$
 - Teorema6.2:  $n-n=0$
 - Teorema6.3:  $m\leq n\Rightarrow m+p\leq n +p$
 - Teorema6.4:  $m\leq n \Rightarrow 0\leq n-m$ 
@@ -57,7 +57,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 
 # Clase 6
    
-   - ## Teorema6.1: $p*(m+n)=p* m+ p* n$   
+   ## Teorema6.1: $p*(m+n)=p* m+ p* n$   
    
    Demostracion:
 
