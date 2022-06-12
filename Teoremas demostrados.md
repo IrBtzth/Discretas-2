@@ -53,6 +53,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 - Teorema6.3:  $m\leq n\Rightarrow m+p\leq n +p$
 - Teorema6.4:  $m\leq n \Rightarrow 0\leq n-m$ 
 - Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
+- Teorema (para demostrar en la practica): Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
 
 
 
