@@ -50,7 +50,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 
 - [Teorema6.1:](#teorema6.1) $p*(m+n)=p* m+ p* n$
 - [Teorema6.2:](#teorema6.2) $n-n=0$
-- Teorema6.3:  $m\leq n\Rightarrow m+p\leq n +p$
+- [Teorema6.3:](#teorema6.3)  $m\leq n\Rightarrow m+p\leq n +p$
 - Teorema6.4:  $m\leq n \Rightarrow 0\leq n-m$ 
 - Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
 - Teorema (para demostrar en la practica): Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
@@ -112,7 +112,8 @@ $\equiv$ < Axioma 21 >
    $\equiv$   < Reflexividad de la igualdad >
    
    $True$
-  
+   
+  <a name="teorema6.3"></a>
    - ## Teorema6.3:  $m\leq n \Rightarrow m+p\leq n +p$
    
    $m\leq n$
