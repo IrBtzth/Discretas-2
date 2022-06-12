@@ -28,7 +28,11 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 24) $n < m \equiv n\leq m\wedge n\neq$
 25) $n\geq m \equiv m\leq n$
 26) $n > m \equiv n\geq m\wedge n\neq m$
-
+27) $n<m<p\equiv n<m\wedge m<p$ 
+28) $n\leq m\leq p\equiv n\leq m\wedge m\leq p$
+29) $n< m\leq p\equiv n< m\wedge m\leq p$
+30) $n\leq m< p\equiv n\leq m\wedge m< p$
+31) $n\neq m \equiv \neg(n=m)n$
 # Clase 4
 - Teorema: para todo n se tiene que n*1=n
 - Lema: Para todo n se tiene que 0*n=0
