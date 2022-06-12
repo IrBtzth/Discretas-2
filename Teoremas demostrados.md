@@ -49,7 +49,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 # Clase 6
 
 - [Teorema6.1:](#teorema6.1) $p*(m+n)=p* m+ p* n$
-- Teorema6.2:  $n-n=0$
+- [Teorema6.2:](#teorema6.2) $n-n=0$
 - Teorema6.3:  $m\leq n\Rightarrow m+p\leq n +p$
 - Teorema6.4:  $m\leq n \Rightarrow 0\leq n-m$ 
 - Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
@@ -58,9 +58,25 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 # Clase 6
 
    <a name="teorema6.1"></a>
-   ## Teorema6.1  $p*(m+n)=p* m+ p* n$
+   - ## Teorema6.1:  $p*(m+n)=p* m+ p* n$
    
-   Demostracion:
+   Demostracion: partiendo de un lado.
+   
+   $p*(m+n)$
+$\equiv$ <Conmutividad>
+   
+  $(m+n)*p$
+   
+$\equiv$ <Distributiva>
+   
+  $m*p+n*p$
+$\equiv$ <Conmutatividad dos veces>
+  
+  $p*m+p*n$
+   
+  <a name="teorema6.2"></a>
+  - ## Teorema6.2: $n~-~n=0$
+   
 
 
 
