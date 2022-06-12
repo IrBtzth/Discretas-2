@@ -186,18 +186,25 @@ $\equiv$ < Axioma 21 >
 Se debe demostrar que $n\leq p\Rightarrow n-0\leq p-0$ pero esto aplicando el axioma 21 seria equivalente a $n\leq p\Rightarrow n\leq p$ lo cual es una tautologia
 
 **Paso inductivo: Sea m arbitrario**
+                              
 Hipotesis Inductiva: $(n\leq p \Rightarrow n-m\leq p-m)$    
 Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$ 
                               
    $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$ 
    
-   $\equiv$ < Axioma 23 >
+   $\equiv$ < Axioma 22 >
    
-   $(\exists k|: m+k=n)$ 
+   $(n\leq p \Rightarrow P(n-m)\leq P(p-m))$ 
    
-   $\equiv$ < Leibniz como axioma y paridad >
+   $\equiv$ < Axioma 6.3 >
    
-   $(\exists k|:(m+k) -m  =n -m)$                                
+   $(n\leq p \Rightarrow P(n-m)+1\leq P(p-m)+1)$  
+   
+   $\equiv$ < Definicion de sucesor >
+   
+   $(n\leq p \Rightarrow P(S(n-m))\leq S(P(p-m)))$  
+   
+   
 
                               
    
