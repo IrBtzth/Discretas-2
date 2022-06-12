@@ -189,8 +189,15 @@ $\equiv$  < Debilito >
 
  $\equiv$ < Introduccion del existe > 
     
-   (\exists k''|:n+k=p)
+   $(\exists k''|:n+k''=p)$
    
+ $\Rightarrow$ $(\exists k''|:n+k''=p)$
+   
+   $\equiv$ < Axioma 23 >
+   
+   $n\leq p$
+   
+   Se ha demostrado por debilitamiento que $n\leq m\wedge m\leq p\Rightarrow n\leq$ . Como $n$, $m$ y $p$ eran arbitrarios entonces se puede generalizar obteniendo $(\forall n|:(\forall m|: \forall p|: n\leq m \wedge m\leq p\Rightarrow n\leq p))$
    
 
 
