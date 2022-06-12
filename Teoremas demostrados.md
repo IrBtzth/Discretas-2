@@ -202,8 +202,15 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    
    $\equiv$ < Definicion de sucesor >
    
-   $(n\leq p \Rightarrow P(S(n-m))\leq S(P(p-m)))$  
+   $(n\leq p \Rightarrow S(P(n-m))\leq S(P(p-m)))$
    
+   $\equiv$ < Como $m<n$, entonces $n-m$ no es $0$ y por lo tanto se puede aplicar el axioma 20 >
+   
+   $(n\leq p \Rightarrow n-m\leq p-m))$
+   
+   $\equiv$ < Por hipotesis >
+   
+   $(n\leq p \Rightarrow n \leq p))$
    
 
                               
