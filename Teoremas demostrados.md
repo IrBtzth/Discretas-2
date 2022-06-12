@@ -28,7 +28,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 24) $n < m \equiv n\leq m\wedge n\neq$
 25) $n\geq m \equiv m\leq n$
 26) $n > m \equiv n\geq m\wedge n\neq m$
-27) $n<m<p\equiv n<m\wedge m<p$ 
+27) $(n < m < p) \equiv n < m \wedge m < p $ 
 28) $n\leq m\leq p\equiv n\leq m\wedge m\leq p$
 29) $n< m\leq p\equiv n< m\wedge m\leq p$
 30) $n\leq m< p\equiv n\leq m\wedge m< p$
@@ -42,9 +42,17 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 
 # Clase 5 
 - Teorema:  para todo n se tiene que \$n \leq n$ 
-- Teorema: si k'+k=0 entonces k'=0
-- Teorema:  para todo n y m se tiene que si \$ m \leq n$ y  $ n \leq m$ entonces n=m   
-- Teorema **(Transitividad del menor o igual)**: Para todo n, m y p se tiene que $ n\leq m \wedge m \leq p \Rightarrow n \leq p$
+- Teorema: si $k'+k=0$ entonces $k'=0$
+- Teorema:  para todo $n$ y $m$ se tiene que si \$ m \leq n$ y  $ n \leq m$ entonces n=m   
+- Teorema **(Transitividad del menor o igual)**: Para todo $n$, $m$ y $p$ se tiene que $ n\leq m \wedge m \leq p \Rightarrow n \leq p$
+
+# Clase 6
+
+- Teorema6.1: $p*(m+n)=p* m+ p* n$
+- Teorema6.2:  $n-n=0$
+- Teorema6.3:  $m\leq n\Rightarrow m+p\leq n +p$
+- Teorema6.4:  $m\leq n \Rightarrow 0\leq n-m$ 
+- Teorema6.5: Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
 
 
 
