@@ -199,6 +199,9 @@ $\equiv$  < Debilito >
    
    Se ha demostrado por debilitamiento que $n\leq m\wedge m\leq p\Rightarrow n\leq$ . Como $n$, $m$ y $p$ eran arbitrarios entonces se puede generalizar obteniendo $(\forall n|:(\forall m|: \forall p|: n\leq m \wedge m\leq p\Rightarrow n\leq p))$
    
+   # Clase 6
+   
+   
 
 
    
