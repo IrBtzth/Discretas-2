@@ -220,6 +220,17 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    
    <a name="teorema6.6"></a>
   - ## Teorema6.6 (para demostrar en la practica): Si $a\leq n$ y $a\leq m$, entonces $n\neq m\equiv n-a \neq m-a$ donde a es una constante.
+   
+   # Practica 3
+   
+   - TeoremaP3.1: si $n\neq 0\Rightarrow S(P(n))=n$
+   - TeoremaP3.2: (para demostrar en la practica): Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
+   - TeoremaP3.3 (para demostrar en la practica): Si a\leq na≤n y a\leq ma≤m entonces  n\neq m\equiv n-a\neq m-an
+   - TeoremaP3.4: $\neg(n<m) \equiv n\geq m$
+   - TeoremaP3.5: $\neg(\exists n|:0< n<1)\equiv (\forall n|:n=0\vee n\geq 1)$
+   - TeoremaP3.6: $(\forall n|:n=0\vee n\geq 1)$
+   
+                                                    
 
                               
    
