@@ -301,9 +301,9 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    Se ha dmoemostrado por doble implicacion
    
    <a name="teoremaP3.3"></a>
-   - ## TeoremaP3.3: $\neg(n<m) \equiv n\geq m$
+   - ## TeoremaP3.3: $ \neg(n < m) \equiv n\geq m $
       
-   $\neg(n<m)$
+   $\neg(n < m)$
    
    
    
