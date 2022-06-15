@@ -59,7 +59,7 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
    
    - [TeoremaP3.1:](#teoremaP3.1) Si $n\neq 0\Rightarrow S(P(n))=n$
    - [TeoremaP3.2 (para demostrar en la practica):](#teoremaP3.2)  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
-   - [TeoremaP3.3:](#teorema3.3) $\neg(n < m) \equiv n\geq m$
+   - [TeoremaP3.3:](#teoremaP3.3) $\neg(n < m) \equiv n\geq m$
    - TeoremaP3.4: $\neg(\exists n|:0< n<1)\equiv (\forall n|:n=0\vee n\geq 1)$
    - TeoremaP3.5: $(\forall n|:n=0\vee n\geq 1)$
 
@@ -306,6 +306,26 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    - ## TeoremaP3.3: $\neg(n < m) \equiv n\geq m$
       
    $\neg(n < m)$
+   
+   $\equiv$ < Axioma 24 >
+   
+   $\neg(n\leq m\wedge n\neq m)$
+   
+   $\equiv$ <De Morgan>
+   
+   $\neg(n\leq m)\vee \neg(n\neq m)$ 
+
+   $\equiv$ < Axioma 31 >
+   
+   $\neg(n\leq m)\vee \neg(\neg(n= m))$
+   
+   $\equiv$ < Doble negacion >
+   
+   $\neg(n\leq m)\vee n= m$
+   
+   $\equiv$ < Axioma 23 >
+   
+   $\neg(\exists k|:n+k= m)\vee n= m$
    
    
    
