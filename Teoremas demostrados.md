@@ -231,7 +231,6 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    - TeoremaP3.6: $(\forall n|:n=0\vee n\geq 1)$
                                                  
    <a name="teoremaP3.1"></a>
-   
    - ## TeoremaP3.1: Si $n\neq 0\Rightarrow S(P(n))=n$
    
    **Caso base: n=O.**
