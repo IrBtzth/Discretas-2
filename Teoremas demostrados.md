@@ -55,6 +55,14 @@ y tambien para cada n se tiene que \varphi(n)\Rightarrow\varphi(S(n))φ(n)⇒φ(
 - [Teorema6.5:](#teorema6.5) Si $m < n$ , entonces se tiene que $n\leq p\Rightarrow n-m\leq p-m$ 
 - [Teorema6.6 (para demostrar en la practica):](#teorema6.6) Si $a\leq n \wedge a \leq m$, entonces $n \neq m\equiv n-a\neq m-a$ donde $a$ es una constante.
 
+# Practica 3
+   
+   - [TeoremaP3.1:](#teoremaP3.1) Si $n\neq 0\Rightarrow S(P(n))=n$
+   - [TeoremaP3.2 (para demostrar en la practica):](#teoremaP3.2)  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
+   - [TeoremaP3.3:](#teorema3.3) $\neg(n < m) \equiv n\geq m$
+   - TeoremaP3.4: $\neg(\exists n|:0< n<1)\equiv (\forall n|:n=0\vee n\geq 1)$
+   - TeoremaP3.5: $(\forall n|:n=0\vee n\geq 1)$
+
 # Clase 6
 
    <a name="teorema6.1"></a>
@@ -222,12 +230,6 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
   - ## Teorema6.6 (para demostrar en la practica): Si $a\leq n$ y $a\leq m$, entonces $n\neq m\equiv n-a \neq m-a$ donde a es una constante.
    
    # Practica 3
-   
-   - [TeoremaP3.1:](#teoremaP3.1) Si $n\neq 0\Rightarrow S(P(n))=n$
-   - [TeoremaP3.2 (para demostrar en la practica):](#teoremaP3.2)  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
-   - [TeoremaP3.3:](#teorema3.3) $\neg(n<m) \equiv n\geq m$
-   - TeoremaP3.4: $\neg(\exists n|:0< n<1)\equiv (\forall n|:n=0\vee n\geq 1)$
-   - TeoremaP3.5: $(\forall n|:n=0\vee n\geq 1)$
                                                  
    <a name="teoremaP3.1"></a>
    - ## TeoremaP3.1: Si $n\neq 0\Rightarrow S(P(n))=n$
@@ -301,9 +303,11 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    Se ha dmoemostrado por doble implicacion
    
    <a name="teoremaP3.3"></a>
-   - ## TeoremaP3.3: $ \neg(n < m) \equiv n\geq m $
+   - ## TeoremaP3.3: $\neg(n < m) \equiv n\geq m$
       
    $\neg(n < m)$
+   
+   
    
    
    
