@@ -262,7 +262,44 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    <a name="teoremaP3.2"></a>
    - ## TeoremaP3.2 (para demostrar en la practica):  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
    
+   Demostracion:  Por doble implicacion
+   Primero se demuestra el sentido <=  por fortalecimiento
+
+   $n\neq m$
+
+   $\equiv$  < Axioma 31>
    
+   $\neg(n= m)$ 
+   
+   $\Leftarrow$<Leibniz y paridad impar> 
+   
+   $\neg(n-a= m-a)$    E: como z op a
+
+   $\equiv  < Axioma 31 >
+   
+   $n-a\neq m-a$
+
+   Vamos a demostrar el sentido $\Rightarrow$ por fortalecimiento
+   
+   $ n−a \neq m-a$
+   
+   $\Rightarrow$ < Axioma 31 >
+   
+   $\neg(n-a= m-a)$
+
+   $Rightarrow$ < Leibniz y paridad impar > 
+   
+   $\neg((n-a)+a= (m-a)+a)$    E: como z+a
+
+   < Teorema restar y sumar con la hipotesis $a<n$ y $a<m$  >
+   
+   $\neg(n= m)$ 
+   
+   $\Rightarrow$ < Axioma 31 >
+   
+   $n\neq m$
+
+   Se ha dmoemostrado por doble implicacion
    
    
    
