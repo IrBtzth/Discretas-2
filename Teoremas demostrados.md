@@ -223,8 +223,8 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    
    # Practica 3
    
-   - [TeoremaP3.1:](#teoremaP3.1:) Si $n\neq 0\Rightarrow S(P(n))=n$
-   - TeoremaP3.2: (para demostrar en la practica): Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
+   - [TeoremaP3.1:](#teoremaP3.1) Si $n\neq 0\Rightarrow S(P(n))=n$
+   - [TeoremaP3.2 (para demostrar en la practica):](#teoremaP3.2)  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
    - TeoremaP3.3 (para demostrar en la practica): Si a\leq na≤n y a\leq ma≤m entonces  n\neq m\equiv n-a\neq m-an
    - TeoremaP3.4: $\neg(n<m) \equiv n\geq m$
    - TeoremaP3.5: $\neg(\exists n|:0< n<1)\equiv (\forall n|:n=0\vee n\geq 1)$
@@ -233,7 +233,7 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    <a name="teoremaP3.1"></a>
    - ## TeoremaP3.1: Si $n\neq 0\Rightarrow S(P(n))=n$
    
-   **Caso base: n=O.**
+   **Caso base: n=0.**
    En este caso el antecedente de la implicacion da falso y por lo tanto la implicacion seria verdadera.
    
    **Paso inductivo: Sea n arbitrario.**
@@ -258,6 +258,9 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
    $\equiv$ 
    
    $True$
+   
+   <a name="teoremaP3.2"></a>
+   - ## TeoremaP3.2 (para demostrar en la practica):  Si $a\leq n$ y $a\leq m$ entonces  $n\neq m\equiv n-a\neq m-an$
    
    
    
