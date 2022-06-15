@@ -232,6 +232,40 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
                                                  
    <a name="teoremaP3.1"></a>
    
+   - ## TeoremaP3.1: Si $n\neq 0\Rightarrow S(P(n))=n$
+   
+   **Caso base: n=O.**
+   En este caso el antecedente de la implicacion da falso y por lo tanto la implicacion seria verdadera.
+   
+   **Paso inductivo: Sea n arbitrario.**
+   
+   Hipotesis inductiva: $n\neq 0\Rightarrow S(P(n))=n$
+   Tesis inductiva: $S(n)\neq 0\Rightarrow S(P(n))=S(n)$
+   
+   $S(n)\neq 0\Rightarrow S(P(n))=S(n)$
+   
+   $\equiv$ < Axioma 20>
+   
+   $S(n)\neq 0\Rightarrow S(n)=S(n)$
+   
+   $\equiv$ < Reflexividad de la igualdad >
+   
+   $S(n)\neq 0\Rightarrow True$
+
+   $\equiv$ < Axioma 1 >
+   
+   $ True \Rightarrow True$
+   
+   $\equiv$ 
+   
+   $True$
+   
+   
+   
+   
+   
+   
+   
    
                                                     
 
