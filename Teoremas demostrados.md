@@ -346,6 +346,8 @@ Tesis Inductiva: $(n\leq p \Rightarrow n-S(m)\leq p-S(m))$
   
    $(\forall n|: o\leq n \vee n \leq 1)$
    
+   # Clase 7
+   
    
    
    
